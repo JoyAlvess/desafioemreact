@@ -1,0 +1,43 @@
+// Header
+.containerNav {
+    border-bottom: 1px solid #fa95ae;
+    margin: 0 6em;
+    
+    .itensNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 5%;
+            margin-right: 34em;
+        }
+
+        li {
+            a {
+                text-decoration: none;
+                color: #f990ae;
+            }
+        }
+    }
+}
+
+// main global 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9.6em 4em;
+}
+
+// Footer
+.footer {
+    text-align: center;
+    margin: 1em 0 0.5em;
+
+    .itensFooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
